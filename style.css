@@ -264,9 +264,7 @@ h1 {
     font-size: 1.4rem;
     width: 90vw;
     line-height: 2.3rem;
-    font-family: "Courier New", serif;
-    /*letter-spacing: 1.2rem;*/
-}
+    font-family: "Courier New", serif;}
 
 .educationImage {
     width: 40%;
@@ -309,7 +307,7 @@ h1 {
 
 }
 
-.about-top {
+.about-top{
     position: relative;
     text-align: center;
     color: white;
@@ -375,4 +373,169 @@ h1 {
     font-family: 'Caveat', cursive;
     font-size: 1.7rem;
 
+}
+
+/*contact Me*/
+
+.contactPage{
+    background-color: #a6f6f1;
+    margin-top: 3%;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: #3797a4;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.contactImg {
+    width: 70%;
+    height: 70%;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*hobbyPage*/
+.hobbyPage {
+    background-color: #a6f6f1;
+    margin-top: 3%;
+}
+
+#testimonials {
+
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-left: 3%;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 3%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.colored-section {
+
+    background-color: #FF4c68;
+    color: #fff;
+
+}
+
+.testimonials-image {
+    width: 65%;
+    height: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 250px;
+
+}
+
+.hobbyPara {
+    width: 95vw;
+    color: black;
+    margin-left: 2%;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    margin-bottom: 4%;
+    margin-right: 2%;
+    padding-left: 2%;
+    opacity: 80%;
+    font-size: 2.4rem;
+}
+
+.hobbyVideo {
+    width: 980px;
+    margin: 0 20%;
+    padding-bottom: 4%;
+}
+
+.hobby-top {
+    position: relative;
+    text-align: center;
+}
+
+.hobby-title {
+    margin: 0;
+    text-align: center;
+    padding: 4% 3%;
+    font-size: 4.5rem;
+    color: #abedd8;
+    font-family: 'Grandstander', cursive;
+}
+
+.hobby-background {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hobbyImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-subtitle {
+    padding-left: 4%;
+    padding-bottom: 2%;
+    color: #00adb5;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+}
+
+.hobbyMore {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.7rem;
+    color: black;
+    padding-left: 8%;
+    padding-top: 3%;
+    padding-right: 8%;
+    width: 100%;
+    line-height: 3.4rem;
 }
