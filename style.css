@@ -292,21 +292,13 @@ h1 {
     transform: scale(1.2);
 }
 
+
+
 /*aboutthisweb*/
 
 .aboutBackground {
 
     background-color: #a6f6f1;
-}
-
-.aboutme {
-    padding: 2% 19%;
-}
-
-.aboutPic {
-    width: 100vw;
-    height: 600px;
-
 }
 
 .about-top {
@@ -359,7 +351,6 @@ h1 {
 .mypicture {
     width: 50%;
     height: 50%;
-    float: left;
     padding-bottom: 50px;
 }
 
@@ -449,11 +440,6 @@ h1 {
 #hobbySec {
 
     background-color: #ef8172;
-}
-
-.testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
 .testimonial-text {
@@ -644,7 +630,7 @@ h1 {
     color: white;
     width: 100%;
     padding-left: 6%;
-    padding-right: 4% ;
+    padding-right: 4%;
     font-size: 2rem;
     line-height: 4.5rem;
 }
@@ -692,4 +678,149 @@ h1 {
 .linkPage:Hover {
     color: darkslateblue;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .bottom-grid {
+        display: grid;
+        padding: 20px;
+        width: 100%;
+        height: 1000px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "item1 item2"
+        "item4 item3"
+        "item5 item6"
+        "item7 item9";
+        grid-gap: 20px;
+    }
+
+    .mypicture1 {
+        display: none;
+    }
+
+    .mypicture {
+        width: 50%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .educationTitle {
+        padding-top: 16%;
+    }
+
+    .hobbyPara {
+        font-size: 2rem;
+    }
+    .hobbyVideo {
+        width: 500px;
+        margin: 0 10%;
+        padding-bottom: 4%;
+    }
+
+    .hobby-title {
+        font-size: 3rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .bottom-grid {
+        display: grid;
+        padding: 20px;
+        width: 100%;
+        height: 1300px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "item1"
+        "item3"
+        "item5"
+        "item7"
+        "item9";
+        grid-gap: 20px;
+    }
+
+    p {
+        color: #ffffff;
+        width: 40vw;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .aboutgrid {
+        display: grid;
+        padding: 20px;
+        width: 100%;
+        height: 780px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-template-areas:
+        "item11"
+        "item10";
+        grid-gap: 20px;
+    }
+
+    .mypicture {
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutHrFix {
+        margin-top: 60%;
+    }
+
+    .educationPara {
+        font-size: 1rem;
+    }
+
+    .educationPicture {
+        width: 55%;
+
+    }
+    .educationImage:hover {
+        transform: scale(1.7);
+    }
+
+        .educationImage2:hover {
+            transform: scale(1.5);
+    }
+
+    .educationMorePara {
+        font-size: 1.1rem;
+    }
+
+    .hobbyPara {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.8rem;
+    }
+
+    .hobbyVideo {
+        width: 500px;
+        margin: 0 10%;
+        padding-bottom: 4%;
+    }
+
+    .hobbyMore {
+        font-size: 1.3rem;
+    }
+
+    .hobby-subtitle {
+        font-size: 1.4rem;
+
+    }
+
 }
