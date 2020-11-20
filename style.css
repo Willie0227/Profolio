@@ -487,8 +487,21 @@ h1 {
 
 .hobbyVideo {
     width: 980px;
-    margin: 0 20%;
     padding-bottom: 4%;
+    display: block;
+    margin: auto;
+}
+
+.roboticsVid {
+    width: 980px;
+    display: block;
+    margin: auto;
+}
+
+.redTree {
+    width: 980px;
+    display: block;
+    margin: auto;
 }
 
 .hobby-top {
@@ -680,7 +693,7 @@ h1 {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
     .bottom-grid {
         display: grid;
@@ -717,19 +730,56 @@ h1 {
         font-size: 2rem;
     }
     .hobbyVideo {
-        width: 500px;
-        margin: 0 10%;
-        padding-bottom: 4%;
+        width: 600px;
+        display: block;
+        margin: auto;
     }
+
 
     .hobby-title {
         font-size: 3rem;
+    }
+
+    .container {
+        padding-top: 10%;
+    }
+
+    .photoImage {
+        padding-bottom: 9%;
+
+    }
+
+    .redTree {
+        width: 600px;
+        display: block;
+        margin: auto;
+    }
+    .roboticsVid {
+        width: 600px;
+        display: block;
+        margin: auto;
     }
 
 }
 
 
 @media only screen and (max-width: 800px) {
+
+    p {
+        color: #ffffff;
+        width: 40vw;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contactMe {
+        font-size: 2rem;
+    }
+
+    .contactMe2 {
+        font-size: 1.3rem;
+    }
 
     .bottom-grid {
         display: grid;
@@ -745,14 +795,6 @@ h1 {
         "item7"
         "item9";
         grid-gap: 20px;
-    }
-
-    p {
-        color: #ffffff;
-        width: 40vw;
-        font-size: 2rem;
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
     }
 
     .aboutgrid {
@@ -809,9 +851,10 @@ h1 {
     }
 
     .hobbyVideo {
-        width: 500px;
-        margin: 0 10%;
-        padding-bottom: 4%;
+        width: 400px;
+        display: block;
+        margin: auto;
+        padding-bottom: 7%;
     }
 
     .hobbyMore {
@@ -821,6 +864,39 @@ h1 {
     .hobby-subtitle {
         font-size: 1.4rem;
 
+    }
+
+    .contactImg {
+        width: 40%;
+        height: 40%;
+    }
+
+    .contact-info img {
+        margin-bottom: 0;
+    }
+
+    .container {
+        padding-top: 16%;
+    }
+
+    .artsImage {
+        padding-bottom: 3%;
+    }
+
+    .photoImage {
+        padding-bottom: 11%;
+
+    }
+
+    .redTree {
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+    .roboticsVid {
+        width: 400px;
+        display: block;
+        margin: auto;
     }
 
 }
