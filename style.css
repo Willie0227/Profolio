@@ -139,56 +139,65 @@ h1 {
     grid-area: item2;
     background-image: url("https://i.pinimg.com/564x/04/ce/ae/04ceae8281331624b88f3c3ae4c3fab4.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-3 {
     grid-area: item3;
     background-image: url("https://i.pinimg.com/564x/62/97/9d/62979d3fd7be5d349cd15cd838ddbb24.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-4 {
     grid-area: item4;
     background-image: url("https://i.pinimg.com/564x/69/0a/20/690a202e43ad4d9326bd513c8cbe7374.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-5 {
     grid-area: item5;
     background-image: url("https://i.pinimg.com/564x/6a/88/2a/6a882a76bc6ec2ebafdcbcc12d7db506.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-6 {
     grid-area: item6;
     background-image: url("https://i.pinimg.com/564x/0a/90/c6/0a90c629e215620dddc120659536139c.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-7 {
     grid-area: item7;
     background-image: url("https://i.pinimg.com/564x/0b/6d/b0/0b6db04f95a0990d82c107726603d4f2.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-8 {
     grid-area: item8;
     background-image: url("https://i.pinimg.com/564x/c0/cb/ef/c0cbef252216a776b0961848f69e2136.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
+
 }
 
 .grid-9 {
     grid-area: item9;
     background-image: url("https://i.pinimg.com/564x/a4/71/12/a47112fe7759ce300af33c84e319355b.jpg");
     background-size: cover;
-    background-position: center
+    background-position: center;
+
 }
 
 .grid-disc {
@@ -736,6 +745,7 @@ h1 {
     .bottom-grid {
         display: grid;
         padding: 20px;
+        margin-left: 12px;
         width: 100%;
         height: 1000px;
         grid-template-rows: 1fr 1fr 1fr;
@@ -745,7 +755,7 @@ h1 {
         "item4 item3"
         "item5 item6"
         "item7 item9";
-        grid-gap: 20px;
+        grid-gap: 10px;
     }
 
     .mypicture1 {
@@ -841,9 +851,10 @@ h1 {
     .bottom-grid {
         display: grid;
         padding: 20px;
+        margin-left: 0;
         width: 100%;
         height: 1300px;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas:
         "item1"
@@ -851,7 +862,11 @@ h1 {
         "item5"
         "item7"
         "item9";
-        grid-gap: 20px;
+        grid-gap: 0;
+    }
+
+    .grid-1, .grid-3, .grid-5, .grid-7, .grid-9{
+        margin-top: 20px;
     }
 
     .mypicture {
@@ -958,10 +973,6 @@ h1 {
         font-size: 1.5rem;
     }
 
-    #javaSection {
-        font-size: 1.7rem;
-    }
-
     .skillsub {
         font-size: 1.4rem;
     }
@@ -983,7 +994,7 @@ h1 {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
-    "skill1 skill2"
+        "skill1 skill2"
         "skill3 skill4";
         grid-gap: 30px;
 
